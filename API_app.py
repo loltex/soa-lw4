@@ -59,7 +59,6 @@ def load_content(option):
                 streamlit.write('**Original Air Date:**', episode['originalAirDate'])
                 streamlit.write(episode['desc'])
         case 'Questions':
-            streamlit.write(content)
             streamlit.subheader('Quiz')
             for question in content:
                 answer = streamlit.radio(
