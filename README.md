@@ -1,2 +1,3 @@
 flask=3.1.1
 requests=2.32.3
+streamlit=1.45.1
