@@ -1,4 +1,3 @@
-#!streamlit run
 import streamlit, sys, json, requests
 
 URL = 'https://api.sampleapis.com/futurama/'
