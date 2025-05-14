@@ -75,7 +75,8 @@ def load_content(option):
                 streamlit.subheader(item['title'])
                 streamlit.write('**Category:**', item['category'])
                 streamlit.write(item['description'])
-                streamlit.write('**Slogan:**', item['slogan'])
+                if item['slogan']:
+                    streamlit.write('**Slogan:**', item['slogan'])
                 streamlit.write('**Price:**', item['price'])
                 streamlit.write('**Stock:**', item['stock'])
 
